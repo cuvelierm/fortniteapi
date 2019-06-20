@@ -1,5 +1,5 @@
 {
-  "name": "fortniteapi",
+  "name": "node-fortniteapi",
   "version": "1.0.0",
   "description": "NodeJS wrapper for fortniteapi.com",
   "main": "index.js",
@@ -7,5 +7,24 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "mitchken",
-  "license": "ISC"
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.88.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuvelierm/fortniteapi.git"
+  },
+  "keywords": [
+    "fortniteapi",
+    "fortniteapi.com"
+  ],
+  "bugs": {
+    "url": "https://github.com/cuvelierm/fortniteapi/issues"
+  },
+  "homepage": "https://github.com/cuvelierm/fortniteapi#readme"
 }
