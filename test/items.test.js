@@ -56,8 +56,7 @@ describe('items', () => {
       assert.strictEqual(typeof items.id, 'function');
     });
     it('should return', () => {
-      const random = Math.random(0, 100000000);
-      assert.strictEqual(items.id(random), `item/get?id=${random}`);
+      assert.strictEqual(items.id('abcdef123456798abcdef'), `item/get?id=abcdef123456798abcdef`);
     });
   });
 });
