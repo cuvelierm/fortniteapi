@@ -21,7 +21,7 @@ const init = ({ authorizationToken, throwErrors = true }) => {
 
 const convertToCalledPaths = paths => {
   const keys = Object.keys(paths);
-  const callableKeys = keys.map(key => (...args) => {
+  return keys.map(key => (...args) => {
     const urlForPath = key(args);
     const url = basePath + urlForPath;
     return request(
@@ -33,7 +33,6 @@ const convertToCalledPaths = paths => {
       },
     );
   });
-  return callableKeys;
 };
 
 module.exports = {

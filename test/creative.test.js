@@ -1,4 +1,4 @@
-import creative from '../lib/creative';
+import creative from '../src/creative';
 import assert from 'assert';
 
 describe('creative', () => {

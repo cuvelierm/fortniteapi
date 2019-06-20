@@ -1,4 +1,4 @@
-import news from '../lib/news';
+import news from '../src/news';
 import assert from 'assert';
 
 describe('news', () => {

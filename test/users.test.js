@@ -1,4 +1,4 @@
-import users from '../lib/users';
+import users from '../src/users';
 import assert from 'assert';
 
 describe('users', () => {

@@ -1,4 +1,4 @@
-import items from '../lib/items';
+import items from '../src/items';
 import assert from 'assert';
 
 describe('items', () => {

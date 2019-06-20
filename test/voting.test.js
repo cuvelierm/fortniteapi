@@ -1,4 +1,4 @@
-import voting from '../lib/voting';
+import voting from '../src/voting';
 import assert from 'assert';
 
 describe('voting', () => {

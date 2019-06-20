@@ -1,4 +1,4 @@
-import challenges from '../lib/challenges';
+import challenges from '../src/challenges';
 import assert from 'assert';
 
 describe('challenges', () => {
